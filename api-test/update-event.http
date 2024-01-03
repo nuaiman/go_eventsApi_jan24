@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/4
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQGdtYWlsLmNvbSIsImV4cCI6MTcwNDI5MzM1NiwiaWQiOjJ9.BF7QUq8nyyT32nTAll1j7k3Vx6M6_rd2qNdC7ma7mgk
+
+{
+    "name": "Updated Name",
+    "description": "Updated description",
+    "location": "Updated location",
+    "dateTime": "2025-01-01T15:30:00.000Z"
+}
